@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+
+git push origin master
+
+PWD = 'pwd'
+
+git config --global user.name = "Jahnavi4623"
+
+signingKey = git config --global --get user.signingkey
+
+git config --global user.email = "janu6264@gmail.com"
+
+import webbrowser
+
+webbrowser.open("https://github.com")
