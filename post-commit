@@ -1,8 +1,9 @@
 #!/usr/bin/env python
+# /home/scrapbook/tutorial/.git/hooks/Devops_Training/post-commit
 
 git push origin master
 
-PWD = 'pwd'
+PWD = '/home/scrapbook/tutorial/.git/hooks/Devops_Training/post-commit'
 
 git config --global user.name = "Jahnavi4623"
 
